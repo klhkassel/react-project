@@ -1,0 +1,41 @@
+/* .weather-icon {
+} */
+
+.weather {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  padding-right: 10px;
+  font: purple;
+}
+
+input {
+  text-align: center;
+  width: fit-content;
+}
+
+/* input, */
+button {
+  background-color: #9b7544;
+}
+
+select,
+input,
+button {
+  font: inherit;
+  padding: 0.5rem;
+}
+
+/* .weatherDescription { */
+/* border: 3px solid #9b7544; */
+/* padding-bottom: 15px; */
+/* } */
+
+.WeatherInput {
+  padding-top: 20px;
+}

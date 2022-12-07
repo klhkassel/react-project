@@ -1,13 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+/*   font-family: "Handlee", cursive;
+ */
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+/* font-family: "Neucha"; */
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+  justify-content: center;
+  background-color: #658354;
+  font-family: "Forum", cursive;
+  align-self: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* input,
+button {
+  font: inherit;
+  padding: 0.5rem;
+} */
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }

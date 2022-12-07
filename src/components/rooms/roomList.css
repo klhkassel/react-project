@@ -1,0 +1,23 @@
+.room-list {
+  /* display:table-column-group; */
+  text-align: center;
+}
+
+.roomImage {
+  width: 20%;
+}
+
+/* .roomButton {
+  background-color: #658354;
+  border: 3px solid white;
+  list-style: none;
+} */
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.roomList {
+  list-style-type: "none";
+}
